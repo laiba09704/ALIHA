@@ -48,7 +48,7 @@ function Contact() {
 
     setLoading(true);
     try {
-      const res = await fetch("aliha-backend.vercel.app/api/contacts/submit", {
+      const res = await fetch("hhtp://https://aliha-backend.vercel.app/api/contacts/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
