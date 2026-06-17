@@ -10,7 +10,7 @@ const app = express();
 
 // middleware
 app.use(cors({
-  origin: "https://laibaabayastore.netlify.app/", // ✅ apna Netlify URL lagao
+  origin: "https://laibaabayastore.netlify.app", // ✅ apna Netlify URL lagao
   credentials: true
 }));app.use(express.json());
 
