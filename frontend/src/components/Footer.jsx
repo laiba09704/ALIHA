@@ -71,7 +71,7 @@ function Footer() {
     if (!email.trim()) return;
 
     try {
-      const res = await fetch("http://localhost:3000/api/subscriptions/subscribe", {
+      const res = await fetch("aliha-backend.vercel.app/api/subscriptions/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

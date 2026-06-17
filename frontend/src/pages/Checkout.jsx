@@ -76,7 +76,7 @@ const Checkout = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/api/orders/create", {
+      const res = await fetch("aliha-backend.vercel.app/api/orders/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
