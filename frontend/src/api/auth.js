@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://aliha-backend.vercel.app/",
+  baseURL: "https://aliha-backend.vercel.app/api/auth",
 });
 
 // SIGNUP
