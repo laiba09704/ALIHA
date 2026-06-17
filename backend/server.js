@@ -9,8 +9,10 @@ dotenv.config();
 const app = express();
 
 // middleware
-app.use(cors());
-app.use(express.json());
+app.use(cors({
+  origin: "https://laibaabayastore.netlify.app/", // ✅ apna Netlify URL lagao
+  credentials: true
+}));app.use(express.json());
 
 // routes
 app.use("/api/auth", require("./routes/authRoutes"));
